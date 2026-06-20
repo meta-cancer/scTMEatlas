@@ -1,5 +1,5 @@
 # ==============================================================================
-# Script Name: Figure1_Construction_of_singlecell_atlas.py
+# Script Name: Fi1_Construction_of_singlecell_atlas.py
 # Description: Construction of single-cell atlas
 # Author: Zhang Lab
 # ==============================================================================
