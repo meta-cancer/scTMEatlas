@@ -13,7 +13,7 @@
 
 
 
-degs <- read.csv("/data/xuelab/caoqi/Proj_02_Pan/2.seu_neu/res_degs_Neu_GCneuvsOthers.csv")
+degs <- read.csv("2.seu_neu/res_degs_Neu_GCneuvsOthers.csv")
 degs
 
 # 添加显著性标签列
@@ -106,7 +106,7 @@ neu_GC_DEG <- markers
 neu_GC_DEG[1:5,]
 
 
-TF_hs <- read.table("/data/xuelab/genome/cisTarget/hs_hgn_curated_tfs.txt") 
+TF_hs <- read.table("cisTarget/hs_hgn_curated_tfs.txt") 
 
 neu_GC_DEG_TF  <- neu_GC_DEG %>% 
   filter(cluster == "MP5_GC") %>% 
